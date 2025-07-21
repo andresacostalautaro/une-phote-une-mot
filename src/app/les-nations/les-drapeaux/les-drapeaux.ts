@@ -5,6 +5,7 @@ import { HistoriqueEntry } from '../models';
 
 interface Nation {
   code: string;
+  index: number;
   nom: string;
 }
 
@@ -19,6 +20,8 @@ export class LesDrapeaux implements OnInit {
   nations: Nation[] = [];
   current!: Nation;
 
+  private indicesRestants: number[] = [];
+
   constructor(
     private partage: Partage,
     private http: HttpClient
@@ -27,6 +30,7 @@ export class LesDrapeaux implements OnInit {
   ngOnInit(): void {
     this.http.get<Nation[]>('/assets/nations.json').subscribe(data => {
       this.nations = data;
+      this.resetIndices();
       this.choisirAleatoire();
     });
   }
@@ -51,7 +55,22 @@ export class LesDrapeaux implements OnInit {
   }
 
   choisirAleatoire(): void {
-    const index = Math.floor(Math.random() * this.nations.length);
+    if (this.indicesRestants.length === 0) {
+      this.resetIndices();
+    }
+
+    const index = this.indicesRestants.pop()!;
     this.current = this.nations[index];
+  }
+
+  private resetIndices(): void {
+    const total = this.nations.length;
+    this.indicesRestants = Array.from({ length: total }, (_, i) => i);
+
+    // Mezclar los índices aleatoriamente (Fisher-Yates)
+    for (let i = total - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.indicesRestants[i], this.indicesRestants[j]] = [this.indicesRestants[j], this.indicesRestants[i]];
+    }
   }
 }
