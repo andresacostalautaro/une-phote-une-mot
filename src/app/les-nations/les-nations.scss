@@ -1,0 +1,21 @@
+.les-nations {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.left-panel {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.right-panel {
+  flex: 1;
+  max-width: 320px;
+  position: sticky;
+  top: 2rem;
+}

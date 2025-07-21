@@ -15,11 +15,14 @@ interface Nation {
   standalone: false
 })
 export class LesDrapeaux implements OnInit {
-  userAnswer = '';
+  userAnswer: string = '';
   nations: Nation[] = [];
   current!: Nation;
 
-  constructor(private partage: Partage, private http: HttpClient) {}
+  constructor(
+    private partage: Partage,
+    private http: HttpClient
+  ) {}
 
   ngOnInit(): void {
     this.http.get<Nation[]>('/assets/nations.json').subscribe(data => {
@@ -32,19 +35,23 @@ export class LesDrapeaux implements OnInit {
     return `/assets/les drapeaux/${this.current.code}.svg`;
   }
 
-  valider() {
+  valider(): void {
+    const reponse = this.userAnswer.trim().toLowerCase();
+    const estCorrect = reponse === this.current.nom;
+
     const entry: HistoriqueEntry = {
       flag: this.flagUrl,
       reponse: this.userAnswer.trim(),
-      correct: this.userAnswer.trim().toLowerCase() === this.current.nom
+      correct: estCorrect
     };
+
     this.partage.ajouterEntree(entry);
     this.userAnswer = '';
     this.choisirAleatoire();
   }
 
-  choisirAleatoire() {
-    const i = Math.floor(Math.random() * this.nations.length);
-    this.current = this.nations[i];
+  choisirAleatoire(): void {
+    const index = Math.floor(Math.random() * this.nations.length);
+    this.current = this.nations[index];
   }
 }
