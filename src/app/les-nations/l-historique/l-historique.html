@@ -1,10 +1,13 @@
 <div class="historique">
-  <h2>Historique</h2>
-  <p>Aquí aparecerán las respuestas del usuario.</p>
+  <div class="historique-header">
+    <h1>Historique</h1>
+    <samp class="points">{{ scoreText }}</samp>
+  </div>
+
   <ul>
     <li *ngFor="let entry of historique">
       <img [src]="entry.flag" alt="flag" width="32" />
-      <span>{{ entry.reponse }}</span> —
+      <span class="reponse">{{ entry.reponse }}</span>
       <strong [ngClass]="{ correct: entry.correct, incorrect: !entry.correct }">
         {{ entry.correct ? 'Correct' : 'Incorrect' }}
       </strong>

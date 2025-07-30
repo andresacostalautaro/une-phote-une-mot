@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HistoriqueEntry } from '../models';
-import { Partage } from '../partage';
+import { PartageService } from '../partage';
+import { HistoriqueEntry } from '../partage';
 
 @Component({
   selector: 'app-l-historique',
@@ -10,10 +10,14 @@ import { Partage } from '../partage';
 })
 export class LHistorique implements OnInit {
   historique: HistoriqueEntry[] = [];
+  scoreText: string = '0/0';
 
-  constructor(private partage: Partage) {}
+  constructor(private partage: PartageService) {}
 
   ngOnInit(): void {
-    this.partage.historique$.subscribe(h => this.historique = h);
+    this.historique = this.partage.historique;
+    this.partage.score$.subscribe(value => {
+      this.scoreText = value;
+    });
   }
 }

@@ -1,102 +1,1079 @@
 [
   {
-    "code": "es",
+    "code": "ad",
+    "index": 0,
+    "categorie": 2,
+    "nom": ["la principauté d'andorre", "andorre", "l'andorre"],
+    "capitale": ["andorre-la-vieille", "andorra la vieille"],
+    "hom": ["andorran"],
+    "fem": ["andorrane"],
+    "gentilé": ["l'andorran"]
+  },
+  {
+    "code": "ae",
+    "index": 1,
+    "categorie": 3,
+    "nom": ["les émirats arabes unis", "émirats arabes unis", "les émirats", "émirats", "l'émirats arabes", "émirats arabes"],
+    "capitale": ["abou dabi", "l'abou dabi"],
+    "hom": ["arabe", "émirati"],
+    "fem": ["arabe", "émiratie"],
+    "gentilé": ["arabes", "émiratis"]
+  },
+  {
+    "code": "af",
+    "index": 2,
+    "categorie": 3,
+    "nom": ["afghanistan", "l'afghanistan"],
+    "capitale": ["kaboul", "le kaboul"],
+    "hom": ["afghan", "l'afghan"],
+    "fem": ["afghane", "l'afghane"],
+    "gentilé": ["afghans", "afghanes", "l'afghans", "l'afghanes"]
+  },
+  {
+    "code": "ag",
     "index": 3,
-    "nom": "espagne"
+    "categorie": 4,
+    "nom": ["antigua-et-barbuda", "antigue-et-barbude"],
+    "capitale": ["saint john's", "saint johns"],
+    "hom": ["antiguayen", "l'antiguayen"],
+    "fem": ["antiguayenne", "l'antiguayenne"],
+    "gentilé": ["antiguais", "antiguaise", "l'antiguais", "l'antiguaise"]
   },
   {
-    "code": "pt",
+    "code": "ai",
     "index": 4,
-    "nom": "portugal"
+    "categorie": 5,
+    "nom": ["anguilla", "l'anguilla"],
+    "capitale": ["the valley"],
+    "hom": ["anguillais", "l'anguillais"],
+    "fem": ["anguillaise", "l'anguillaise"],
+    "gentilé": ["anguillais", "anguillaise", "l'anguillais", "l'anguillaise"]
   },
   {
-    "code": "gb",
+    "code": "al",
     "index": 5,
-    "nom": "royaume-uni"
+    "categorie": 3,
+    "nom": ["albanie", "l'albanie", "la république d'albanie", "république d'albanie"],
+    "capitale": ["tirana", "la tirana"],
+    "hom": ["albanais", "l'albanais"],
+    "fem": ["albanais", "l'albanais"],
+    "gentilé": ["albanais", "l'albanais"]
   },
   {
-    "code": "ie",
+    "code": "am",
     "index": 6,
-    "nom": "irlande"
+    "categorie": 3,
+    "nom": ["l'arménie", "arménie", "la république d'arménie", "république d'arménie"],
+    "capitale": ["erevan", "l'erevan"],
+    "hom": ["arménien", "l'arménien"],
+    "fem": ["arménien", "l'arménien"],
+    "gentilé": ["arméniens", "l'arménies"]
   },
   {
-    "code": "nl",
+    "code": "ao",
     "index": 7,
-    "nom": "pays-bas"
+    "categorie": 4,
+    "nom": ["angola", "l'angola", "la république d'angola", "république d'angola"],
+    "capitale": ["luanda", "la luanda"],
+    "hom": ["angolais", "l'angolais"],
+    "fem": ["angolaise", "l'angolaise"],
+    "gentilé": ["angolais", "angolaises", "l'angolais", "l'angolaises"]
+  },
+  {
+    "code": "aq",
+    "index": 8,
+    "categorie": 5,
+    "nom": ["antarctique", "l'antarctique"],
+    "capitale": [""],
+    "hom": [""],
+    "fem": [""],
+    "gentilé": [""]
+  },
+  {
+    "code": "ar",
+    "index": 9,
+    "categorie": 1,
+    "nom": ["argentine", "l'argentine", "la république argentine", "république argentine"],
+    "capitale": ["buenos aires", "la buenos aires"],
+    "hom": ["argentin", "l'argentin"],
+    "fem": ["argentine", "l'argentine"],
+    "gentilé": ["argentins", "argentines", "l'argentins", "l'argentines"]
+  },
+  {
+    "code": "arab",
+    "index": 10,
+    "categorie": 5,
+    "nom": ["ligue arabe", "la ligue arabe", "ligue des états arabes", "la ligue des états arabes"],
+    "capitale": [""],
+    "hom": [""],
+    "fem": [""],
+    "gentilé": [""]
+  },
+  {
+    "code": "as",
+    "index": 11,
+    "categorie": 5,
+    "nom": ["samoa américaines", "les samoa américaines", "americcan samoa"],
+    "capitale": ["fagatogo", "le fagatogo", "pago pago", "le pago pago", "pago-pago", "le pago-pago", "pagopago"],
+    "hom": ["americain", "l'americain", "etats-unien", "l'etats-unien"],
+    "fem": ["americaine", "l'americaine", "etats-unienne", "l'etats-unienne"],
+    "gentilé": ["americains", "americaines", "l'americains", "l'americaines", "etats-uniens", "etats-uniennes", "l'etats-uniens", "l'etats-uniennes"]
+  },
+  {
+    "code": "asean",
+    "index": 12,
+    "categorie": 5,
+    "nom": ["asean", "l'asean", "association des nations de l'asie du sud-est", "l'association des nations de l'asie du sud-est"],
+    "capitale": [""],
+    "hom": [""],
+    "fem": [""],
+    "gentilé": [""]
+  },
+  {
+    "code": "au",
+    "index": 13,
+    "categorie": 1,
+    "nom": ["l'australie", "australie", "le commonwealth d'australie", "commonwealth d'australie"],
+    "capitale": ["canberra", "la canberra"],
+    "hom": ["australien", "l'australien"],
+    "fem": ["australienne", "l'australienne"],
+    "gentilé": ["australiens", "australiennes", "l'australiens", "l'australiennes"]
+  },
+  {
+    "code": "aw",
+    "index": 14,
+    "categorie": 5,
+    "nom": ["aruba", "l'aruba"],
+    "capitale": ["oranjestad", "l'oranjestad"],
+    "hom": ["arubain", "l'arubain"],
+    "fem": ["arubaine", "l'arubaine"],
+    "gentilé": ["arubains", "arubaines", "l'arubains", "l'arubaines"]
+  },
+  {
+    "code": "ax",
+    "index": 15,
+    "categorie": 5,
+    "nom": ["åländ", "les åland", "les îles åland", "îles åland", "l'archipel åland", "l'åländ"],
+    "capitale": ["mariehamn", "la mariehamn"],
+    "hom": ["ålandois", "l'ålandois"],
+    "fem": ["ålandoise", "l'ålandoise"],
+    "gentilé": ["ålandois", "ålandoises", "l'ålandois", "l'ålandoises"]
+  },
+  {
+    "code": "az",
+    "index": 16,
+    "categorie": 4,
+    "nom": ["l'azerbaïdjan", "azerbaïdjan", "la république d'azerbaïdjan", "république d'azerbaïdjan"],
+    "capitale": ["bakou", "le bakou"],
+    "hom": ["azerbaïdjanais", "l'azerbaïdjanais"],
+    "fem": ["azerbaïdjanaise", "l'azerbaïdjanaise"],
+    "gentilé": ["azerbaïdjanais", "azerbaïdjanaises", "l'azerbaïdjanais", "l'azerbaïdjanaises"]
+  },
+  {
+    "code": "ba",
+    "index": 17,
+    "categorie": 4,
+    "nom": ["la bosnie-herzégovine", "bosnie-herzégovine", "la république de bosnie-herzégovine", "république de bosnie-herzégovine"],
+    "capitale": ["sarajevo", "le sarajevo"],
+    "hom": ["bosnien", "l'bosnien", "bosniaque", "le bosniaque"],
+    "fem": ["bosnienne", "l'bosnienne", "bosniaque", "la bosniaque"],
+    "gentilé": ["bosniens", "bosniennes", "bosniaques", "l'bosniens", "l'bosniennes", "l'bosniaques"]
+  },
+  {
+    "code": "bb",
+    "index": 18,
+    "categorie": 3,
+    "nom": ["la barbade", "barbade", "l'île de la barbade", "île de la barbade"],
+    "capitale": ["bridgetown", "la bridgetown"],
+    "hom": ["barbadien", "le barbadien"],
+    "fem": ["barbadienne", "la barbadienne"],
+    "gentilé": ["barbadiens", "barbadiennes", "les barbadiens", "les barbadiennes"]
+  },
+  {
+    "code": "bd",
+    "index": 19,
+    "categorie": 3,
+    "nom": ["le bangladesh", "bangladesh", "la république populaire du bangladesh", "république populaire du bangladesh"],
+    "capitale": ["dhaka", "la dhaka", "dacca", "la dacca"],
+    "hom": ["bangladais", "le bangladais"],
+    "fem": ["bangladaise", "la bangladaise"],
+    "gentilé": ["bangladais", "bangladaises", "les bangladais", "les bangladaises"]
   },
   {
     "code": "be",
-    "index": 8,
-    "nom": "belgique"
+    "index": 20,
+    "categorie": 1,
+    "nom": ["la belgique", "belgique", "le royaume de belgique", "royaume de belgique"],
+    "capitale": ["bruxelles", "la bruxelles"],
+    "hom": ["belge", "le belge"],
+    "fem": ["belge", "la belge"],
+    "gentilé": ["belges", "les belges"]
   },
   {
-    "code": "ch",
-    "index": 9,
-    "nom": "suisse"
-  },
-  {
-    "code": "pl",
-    "index": 10,
-    "nom": "pologne"
-  },
-  {
-    "code": "gr",
-    "index": 11,
-    "nom": "grèce"
-  },
-  {
-    "code": "se",
-    "index": 12,
-    "nom": "suède"
-  },
-  {
-    "code": "no",
-    "index": 13,
-    "nom": "norvège"
-  },
-  {
-    "code": "fi",
-    "index": 14,
-    "nom": "finlande"
-  },
-  {
-    "code": "dk",
-    "index": 15,
-    "nom": "danemark"
-  },
-  {
-    "code": "cz",
-    "index": 16,
-    "nom": "tchéquie"
-  },
-  {
-    "code": "at",
-    "index": 17,
-    "nom": "autriche"
-  },
-  {
-    "code": "hu",
-    "index": 18,
-    "nom": "hongrie"
-  },
-  {
-    "code": "ro",
-    "index": 19,
-    "nom": "roumanie"
+    "code": "bf",
+    "index": 21,
+    "categorie": 3,
+    "nom": ["le burkina faso", "burkina faso", "le pays des hommes intègres"],
+    "capitale": ["ouagadougou", "la ouagadougou"],
+    "hom": ["burkinabè", "le burkinabè"],
+    "fem": ["burkinabè", "la burkinabè"],
+    "gentilé": ["burkinabès", "les burkinabès"]
   },
   {
     "code": "bg",
-    "index": 20,
-    "nom": "bulgarie"
-  },
-  {
-    "code": "hr",
-    "index": 21,
-    "nom": "croatie"
-  },
-  {
-    "code": "sk",
     "index": 22,
-    "nom": "slovaquie"
-  }
+    "categorie": 3,
+    "nom": ["la bulgarie", "bulgarie", "la république de bulgarie", "république de bulgarie"],
+    "capitale": ["sofia", "la sofia"],
+    "hom": ["bulgare", "le bulgare"],
+    "fem": ["bulgare", "la bulgare"],
+    "gentilé": ["bulgares", "les bulgares"]
+  },
+  {
+    "code": "bh",
+    "index": 23,
+    "categorie": 5,
+    "nom": ["le bahreïn", "bahreïn", "le royaume de bahreïn", "royaume de bahreïn"],
+    "capitale": ["manama", "la manama"],
+    "hom": ["bahreïnien", "le bahreïnien"],
+    "fem": ["bahreïnienne", "la bahreïnienne"],
+    "gentilé": ["bahreïniens", "bahreïniennes", "les bahreïniens", "les bahreïniennes"]
+  },
+  {
+    "code": "bi",
+    "index": 24,
+    "categorie": 4,
+    "nom": ["le burundi", "burundi", "la république du burundi", "république du burundi"],
+    "capitale": ["gitega", "la gitega", "bujumbura", "la bujumbura"],
+    "hom": ["burundais", "le burundais"],
+    "fem": ["burundaise", "la burundaise"],
+    "gentilé": ["burundais", "burundaises", "les burundais", "les burundaises"]
+  },
+  {
+    "code": "bj",
+    "index": 25,
+    "categorie": 4,
+    "nom": ["le bénin", "bénin", "la république du bénin", "république du bénin"],
+    "capitale": ["porto-novo", "la porto-novo", "portonovo", "la portonovo", "cotonou", "la cotonou"],
+    "hom": ["béninois", "le béninois"],
+    "fem": ["béninoise", "la béninoise"],
+    "gentilé": ["béninois", "béninoises", "les béninois", "les béninoises"]
+  },
+  {
+    "code": "bm",
+    "index": 27,
+    "categorie": 5,
+    "nom": ["les bermudes", "bermudes", "l'archipel des bermudes", "l'île des bermudes"],
+    "capitale": ["hamilton", "la hamilton"],
+    "hom": ["bermudien", "le bermudien"],
+    "fem": ["bermudienne", "la bermudienne"],
+    "gentilé": ["bermudiens", "bermudiennes", "les bermudiens", "les bermudiennes"]
+  },
+  {
+    "code": "bn",
+    "index": 28,
+    "categorie": 5,
+    "nom": ["le brunei", "brunei", "le brunei darussalam", "brunei darussalam", "le sultanat de brunei", "sultanat de brunei"],
+    "capitale": ["bandar seri begawan", "la bandar seri begawan"],
+    "hom": ["brunéien", "le brunéien"],
+    "fem": ["brunéienne", "la brunéienne"],
+    "gentilé": ["brunéiens", "brunéiennes", "les brunéiens", "les brunéiennes"]
+  },
+  {
+  "code": "bo",
+  "index": 29,
+  "categorie": 2,
+  "nom": ["la bolivie", "bolivie", "l'état plurinational de bolivie", "état plurinational de bolivie"],
+  "capitale": ["sucre", "la sucre", "la paz", "la la paz"],
+  "hom": ["bolivien", "le bolivien"],
+  "fem": ["bolivienne", "la bolivienne"],
+  "gentilé": ["boliviens", "boliviennes", "les boliviens", "les boliviennes"]
+},
+{
+  "code": "bq",
+  "index": 30,
+  "categorie": 5,
+  "nom": ["bonaire", "saint-eustache", "saba", "les caraïbes néerlandaises", "pays-bas caribéens", "les pays-bas caribéens"],
+  "capitale": ["kralendijk", "la kralendijk"],
+  "hom": ["caribéen", "le caribéen", "néerlandais caribéen", "le néerlandais caribéen"],
+  "fem": ["caribéenne", "la caribéenne", "néerlandaise caribéenne", "la néerlandaise caribéenne"],
+  "gentilé": ["caribéens", "caribéennes", "néerlandais caribéens", "néerlandaises caribéennes", "les caribéens", "les caribéennes"]
+},
+{
+  "code": "br",
+  "index": 31,
+  "categorie": 1,
+  "nom": ["le brésil", "brésil", "la république fédérative du brésil", "république fédérative du brésil"],
+  "capitale": ["brasilia", "la brasilia"],
+  "hom": ["brésilien", "le brésilien"],
+  "fem": ["brésilienne", "la brésilienne"],
+  "gentilé": ["brésiliens", "brésiliennes", "les brésiliens", "les brésiliennes"]
+},
+{
+  "code": "bs",
+  "index": 32,
+  "categorie": 3,
+  "nom": ["les bahamas", "bahamas", "le commonwealth des bahamas", "commonwealth des bahamas"],
+  "capitale": ["nassau", "la nassau"],
+  "hom": ["bahaméen", "le bahaméen"],
+  "fem": ["bahaméenne", "la bahaméenne"],
+  "gentilé": ["bahaméens", "bahaméennes", "les bahaméens", "les bahaméennes"]
+},
+{
+  "code": "bt",
+  "index": 33,
+  "categorie": 5,
+  "nom": ["le bhoutan", "bhoutan", "le royaume du bhoutan", "royaume du bhoutan"],
+  "capitale": ["thimphou", "la thimphou", "thimphu", "la thimphu"],
+  "hom": ["bhoutanais", "le bhoutanais"],
+  "fem": ["bhoutanaise", "la bhoutanaise"],
+  "gentilé": ["bhoutanais", "bhoutanaises", "les bhoutanais", "les bhoutanaises"]
+},
+{
+  "code": "bv",
+  "index": 34,
+  "categorie": 5,
+  "nom": ["l'île bouvet", "île bouvet", "bouvet", "bouvetøya"],
+  "capitale": [""],
+  "hom": [""],
+  "fem": [""],
+  "gentilé": [""]
+},
+{
+  "code": "bw",
+  "index": 35,
+  "categorie": 4,
+  "nom": ["le botswana", "botswana", "la république du botswana", "république du botswana"],
+  "capitale": ["gaborone", "la gaborone"],
+  "hom": ["botswanais", "le botswanais"],
+  "fem": ["botswanaise", "la botswanaise"],
+  "gentilé": ["botswanais", "botswanaises", "les botswanais", "les botswanaises"]
+},
+{
+  "code": "by",
+  "index": 36,
+  "categorie": 3,
+  "nom": ["la biélorussie", "biélorussie", "le bélarus", "bélarus", "la république du bélarus", "république du bélarus"],
+  "capitale": ["minsk", "le minsk"],
+  "hom": ["biélorusse", "le biélorusse"],
+  "fem": ["biélorusse", "la biélorusse"],
+  "gentilé": ["biélorusses", "les biélorusses"]
+},
+{
+  "code": "bz",
+  "index": 37,
+  "categorie": 4,
+  "nom": ["le belize", "belize"],
+  "capitale": ["belmopan", "la belmopan"],
+  "hom": ["bélizien", "le bélizien"],
+  "fem": ["bélizienne", "la bélizienne"],
+  "gentilé": ["béliziens", "les béliziens"]
+},
+{
+  "code": "ca",
+  "index": 38,
+  "categorie": 1,
+  "nom": ["le canada", "canada"],
+  "capitale": ["ottawa", "l'ottawa"],
+  "hom": ["canadien", "le canadien"],
+  "fem": ["canadienne", "la canadienne"],
+  "gentilé": ["canadiens", "les canadiens"]
+},
+{
+  "code": "cc",
+  "index": 39,
+  "categorie": 5,
+  "nom": ["les îles cocos", "îles cocos", "les îles keeling", "îles keeling"],
+  "capitale": ["west island", "la west island"],
+  "hom": ["cocossais", "le cocossais"],
+  "fem": ["cocossaise", "la cocossaise"],
+  "gentilé": ["cocossais", "cocossaises", "les cocossais", "les cocossaises"]
+},
+{
+  "code": "cd",
+  "index": 40,
+  "categorie": 4,
+  "nom": ["la république démocratique du congo", "république démocratique du congo", "rdc", "congo-kinsasha"],
+  "capitale": ["kinshasa", "la kinshasa"],
+  "hom": ["congolais", "le congolais"],
+  "fem": ["congolaise", "la congolaise"],
+  "gentilé": ["congolais", "congolaises", "les congolais", "les congolaises"]
+},
+{
+  "code": "cefta",
+  "index": 41,
+  "categorie": 5,
+  "nom": ["curaçao", "l'île de curaçao"],
+  "capitale": ["willemstad", "la willemstad"],
+  "hom": ["curaçéen", "le curaçéen"],
+  "fem": ["curaçéenne", "la curaçéenne"],
+  "gentilé": ["curaçéens", "les curaçéens"]
+},
+{
+  "code": "cf",
+  "index": 42,
+  "categorie": 4,
+  "nom": ["la république centrafricaine", "république centrafricaine", "centrafrique", "la centrafrique"],
+  "capitale": ["bangui", "la bangui"],
+  "hom": ["centrafricain", "le centrafricain"],
+  "fem": ["centrafricaine", "la centrafricaine"],
+  "gentilé": ["centrafricains", "les centrafricains"]
+},
+{
+  "code": "cg",
+  "index": 43,
+  "categorie": 4,
+  "nom": ["la république du congo", "république du congo", "congo-brazzaville", "le congo-brazzaville", "congo", "le congo"],
+  "capitale": ["brazzaville", "la brazzaville"],
+  "hom": ["congolais", "le congolais"],
+  "fem": ["congolaise", "la congolaise"],
+  "gentilé": ["congolais", "les congolais"]
+},
+{
+  "code": "ch",
+  "index": 44,
+  "categorie": 1,
+  "nom": ["la suisse", "suisse", "la confédération suisse", "confédération suisse"],
+  "capitale": ["berne", "la berne"],
+  "hom": ["suisse", "le suisse"],
+  "gentilé": ["suisses", "les suisses"]
+},
+{
+  "code": "ci",
+  "index": 45,
+  "categorie": 3,
+  "nom": ["la côte d'ivoire", "côte d'ivoire", "la république de côte d'ivoire", "république de côte d'ivoire"],
+  "capitale": ["yamoussoukro", "la yamoussoukro", "abidjan", "l'abidjan"],
+  "hom": ["ivoirien", "l'ivoirien"],
+  "fem": ["ivoirienne", "l'ivoirienne"],
+  "gentilé": ["ivoiriens", "les ivoiriens"]
+},
+{
+  "code": "ck",
+  "index": 46,
+  "categorie": 5,
+  "nom": ["les îles cook", "îles cook", "les îles de la cuve", "îles de la cuve"],
+  "capitale": ["avarua", "la avarua"],
+  "hom": ["cookien", "le cookien"],
+  "fem": ["cookienne", "la cookienne"],
+  "gentilé": ["cookiens", "cookiennes", "les cookiens", "les cookiennes"]
+},
+{
+  "code": "cl",
+  "index": 47,
+  "categorie": 2,
+  "nom": ["le chili", "chili", "la république du chili", "république du chili"],
+  "capitale": ["santiago", "le santiago"],
+  "hom": ["chilien", "le chilien"],
+  "fem": ["chilienne", "la chilienne"],
+  "gentilé": ["chiliens", "chiliennes", "les chiliens", "les chiliennes"]
+},
+{
+  "code": "cm",
+  "index": 48,
+  "categorie": 4,
+  "nom": ["le cameroun", "cameroun", "la république du cameroun", "république du cameroun"],
+  "capitale": ["yaoundé", "la yaoundé"],
+  "hom": ["camerounais", "le camerounais"],
+  "fem": ["camerounaise", "la camerounaise"],
+  "gentilé": ["camerounais", "camerounaises", "les camerounais", "les camerounaises"]
+},
+{
+  "code": "cn",
+  "index": 49,
+  "categorie": 1,
+  "nom": ["la chine", "chine", "la république populaire de chine", "république populaire de chine"],
+  "capitale": ["pékin", "le pékin", "beijing", "le beijing"],
+  "hom": ["chinois", "le chinois"],
+  "fem": ["chinoise", "la chinoise"],
+  "gentilé": ["chinois", "chinoises", "les chinois", "les chinoises"]
+},
+{
+  "code": "co",
+  "index": 50,
+  "categorie": 2,
+  "nom": ["la colombie", "colombie", "la république de colombie", "république de colombie"],
+  "capitale": ["bogota", "la bogota"],
+  "hom": ["colombien", "le colombien"],
+  "fem": ["colombienne", "la colombienne"],
+  "gentilé": ["colombiens", "colombiennes", "les colombiens", "les colombiennes"]
+},
+{
+  "code": "cr",
+  "index": 51,
+  "categorie": 3,
+  "nom": ["le costa rica", "costa rica", "la république du costa rica", "république du costa rica"],
+  "capitale": ["san josé", "le san josé"],
+  "hom": ["costaricien", "le costaricien"],
+  "fem": ["costaricienne", "la costaricienne"],
+  "gentilé": ["costariciens", "costariciennes", "les costariciens", "les costariciennes"]
+},
+{
+  "code": "cu",
+  "index": 52,
+  "categorie": 2,
+  "nom": ["cuba", "la république de cuba"],
+  "capitale": ["la havane", "havana"],
+  "hom": ["cubain", "le cubain"],
+  "fem": ["cubaine", "la cubaine"],
+  "gentilé": ["cubains", "cubaines", "les cubains", "les cubaines"]
+},
+{
+  "code": "cv",
+  "index": 53,
+  "categorie": 5,
+  "nom": ["cap-vert", "le cap-vert", "cap vert"],
+  "capitale": ["praia", "la praia"],
+  "hom": ["capverdien", "le capverdien"],
+  "fem": ["capverdienne", "la capverdienne"],
+  "gentilé": ["capverdiens", "capverdiennes", "les capverdiens", "les capverdiennes"]
+},
+{
+  "code": "cw",
+  "index": 54,
+  "categorie": 5,
+  "nom": ["curaçao", "l'île de curaçao"],
+  "capitale": ["willemstad", "la willemstad"],
+  "hom": ["curaçéen", "le curaçéen"],
+  "fem": ["curaçéenne", "la curaçéenne"],
+  "gentilé": ["curaçéens", "les curaçéens"]
+},
+{
+  "code": "cx",
+  "index": 55,
+  "categorie": 5,
+  "nom": ["l'île christmas", "île christmas", "christmas island"],
+  "capitale": ["flying fish cove", "la flying fish cove"],
+  "hom": ["christmasien", "le christmasien"],
+  "fem": ["christmasienne", "la christmasienne"],
+  "gentilé": ["christmasiens", "christmasiennes", "les christmasiens", "les christmasiennes"]
+},
+{
+  "code": "cy",
+  "index": 56,
+  "categorie": 3,
+  "nom": ["chypre", "la république de chypre", "république de chypre"],
+  "capitale": ["nicosie", "la nicosie"],
+  "hom": ["chypriote", "le chypriote"],
+  "fem": ["chypriote", "la chypriote"],
+  "gentilé": ["chypriotes", "les chypriotes"]
+},
+{
+  "code": "cz",
+  "index": 57,
+  "categorie": 1,
+  "nom": ["la république tchèque", "république tchèque", "tchéquie", "la tchéquie"],
+  "capitale": ["prague", "la prague"],
+  "hom": ["tchèque", "le tchèque"],
+  "fem": ["tchèque", "la tchèque"],
+  "gentilé": ["tchèques", "les tchèques"]
+},
+{
+  "code": "de",
+  "index": 58,
+  "categorie": 1,
+  "nom": ["l'allemagne", "allemagne", "la république fédérale d'allemagne", "république fédérale d'allemagne"],
+  "capitale": ["berlin", "la berlin"],
+  "hom": ["allemand", "l'allemand"],
+  "fem": ["allemande", "l'allemande"],
+  "gentilé": ["allemands", "les allemands"]
+},
+{
+  "code": "dg",
+  "index": 59,
+  "categorie": 5,
+  "nom": ["le territoire britannique de l'océan indien", "territoire britannique de l'océan indien"],
+  "capitale": ["diego garcia", "le diego garcia"],
+  "hom": ["britannique de l'océan indien", "le britannique de l'océan indien"],
+  "gentilé": ["britanniques de l'océan indien", "les britanniques de l'océan indien"]
+},
+{
+  "code": "dj",
+  "index": 60,
+  "categorie": 4,
+  "nom": ["djibouti", "la république de djibouti", "république de djibouti"],
+  "capitale": ["djibouti", "la djibouti"],
+  "hom": ["djiboutien", "le djiboutien"],
+  "fem": ["djiboutienne", "la djiboutienne"],
+  "gentilé": ["djiboutiens", "les djiboutiens"]
+},
+{
+  "code": "dk",
+  "index": 61,
+  "categorie": 1,
+  "nom": ["le danemark", "danemark", "royaume du danemark"],
+  "capitale": ["copenhague", "la copenhague"],
+  "hom": ["danois", "le danois"],
+  "fem": ["danoise", "la danoises"],
+  "gentilé": ["danois", "les danois"]
+},
+{
+  "code": "dm",
+  "index": 62,
+  "categorie": 4,
+  "nom": ["la dominique", "dominique", "le commonwealth de la dominique", "commonwealth de la dominique"],
+  "capitale": ["roseau", "le roseau"],
+  "hom": ["dominicain", "le dominicain"],
+  "fem": ["dominicaines", "la dominicaine"],
+  "gentilé": ["dominicains", "les dominicains"]
+},
+{
+  "code": "do",
+  "index": 63,
+  "categorie": 2,
+  "nom": ["la république dominicaine", "république dominicaine"],
+  "capitale": ["santo domingo", "le santo domingo"],
+  "hom": ["dominicain", "le dominicain"],
+  "fem": ["dominicaine", "la dominicaine"],
+  "gentilé": ["dominicans", "les dominicans"]
+},
+{
+  "code": "dz",
+  "index": 64,
+  "categorie": 3,
+  "nom": ["l'algérie", "algérie", "la république algérienne démocratique et populaire", "république algérienne démocratique et populaire"],
+  "capitale": ["alger", "l'alger"],
+  "hom": ["algérien", "l'algérien"],
+  "fem": ["algérienne", "l'algérienne"],
+  "gentilé": ["algériens", "les algériens"]
+},
+{
+  "code": "eac",
+  "index": 65,
+  "categorie": 5,
+  "nom": ["la communauté d'afrique de l'est", "communauté d'afrique de l'est", "eac"],
+  "capitale": ["arusha", "l'arusha"],
+  "hom": [],
+  "fem": [],
+  "gentilé": []
+},
+{
+  "code": "ec",
+  "index": 66,
+  "categorie": 2,
+  "nom": ["l'équateur", "équateur", "la république de l'équateur", "république de l'équateur"],
+  "capitale": ["quito", "le quito"],
+  "hom": ["équatorien", "l'équatorien"],
+  "fem": ["équatorienne", "l'équatorienne"],
+  "gentilé": ["équatoriens", "les équatoriens"]
+},
+{
+  "code": "ee",
+  "index": 67,
+  "categorie": 3,
+  "nom": ["l'estonie", "estonie", "la république d'estonie", "république d'estonie"],
+  "capitale": ["tallinn", "la tallinn"],
+  "hom": ["estonien", "l'estonien"],
+  "fem": ["estonienne", "l'estonienne"],
+  "gentilé": ["estoniens", "les estoniens"]
+},
+{
+  "code": "eg",
+  "index": 68,
+  "categorie": 3,
+  "nom": ["l'égypte", "égypte", "la république arabe d'égypte", "république arabe d'égypte"],
+  "capitale": ["le caire", "cairo"],
+  "hom": ["égyptien", "l'égyptien"],
+  "fem": ["égyptienne", "l'égyptienne"],
+  "gentilé": ["égyptiens", "les égyptiens"]
+},
+{
+  "code": "eh",
+  "index": 69,
+  "categorie": 5,
+  "nom": ["le sahara occidental", "sahara occidental", "territoire non autonome du sahara occidental"],
+  "capitale": ["el aaiún", "la el aaiún"],
+  "hom": ["saharien", "le saharien"],
+  "fem": ["saharienne", "la saharienne"],
+  "gentilé": ["sahariens", "les sahariens"]
+},
+{
+  "code": "er",
+  "index": 70,
+  "categorie": 4,
+  "nom": ["l'érythrée", "érythrée", "la république d'érythrée", "république d'érythrée"],
+  "capitale": ["asmara", "l'asmara"],
+  "hom": ["érythréen", "l'érythréen"],
+  "fem": ["érythréenne", "l'érythréenne"],
+  "gentilé": ["érythréens", "les érythréens"]
+},
+{
+  "code": "es",
+  "index": 71,
+  "categorie": 1,
+  "nom": ["l'espagne", "espagne", "le royaume d'espagne", "royaume d'espagne"],
+  "capitale": ["madrid", "la madrid"],
+  "hom": ["espagnol", "l'espagnol"],
+  "fem": ["espagnole", "l'espagnole"],
+  "gentilé": ["espagnols", "les espagnols"]
+},
+{
+  "code": "es-ct",
+  "index": 72,
+  "categorie": 5,
+  "nom": ["la catalogne", "catalogne", "catalunya", "la catalunya"],
+  "capitale": ["barcelone", "la barcelone"],
+  "hom": ["catalan", "le catalan"],
+  "fem": ["catalane", "la catalane"],
+  "gentilé": ["catalans", "les catalans"]
+},
+{
+  "code": "es-ga",
+  "index": 73,
+  "categorie": 5,
+  "nom": ["la galice", "galice", "galicia", "la galicia"],
+  "capitale": ["saint-jacques-de-compostelle", "le saint-jacques-de-compostelle"],
+  "hom": ["galicien", "le galicien"],
+  "fem": ["galicienne", "la galicienne"],
+  "gentilé": ["galiciens", "les galiciens"]
+},
+{
+  "code": "es-pv",
+  "index": 74,
+  "categorie": 5,
+  "nom": ["le pays basque", "pays basque", "euskadi", "l'euskadi"],
+  "capitale": ["vitoria-gasteiz", "la vitoria-gasteiz"],
+  "hom": ["basque", "le basque"],
+  "gentilé": ["basques", "les basques"]
+},
+{
+  "code": "et",
+  "index": 75,
+  "categorie": 4,
+  "nom": ["l'éthiopie", "éthiopie", "la république fédérale démocratique d'éthiopie", "république fédérale démocratique d'éthiopie"],
+  "capitale": ["addis-abeba", "l'addis-abeba"],
+  "hom": ["éthiopien", "l'éthiopien"],
+  "fem": ["éthiopienne", "l'éthiopienne"],
+  "gentilé": ["éthiopiens", "les éthiopiens"]
+},
+{
+  "code": "eu",
+  "index": 76,
+  "categorie": 5,
+  "nom": ["l'union européenne", "union européenne", "ue"],
+  "capitale": ["bruxelles", "la bruxelles"],
+  "hom": [""],
+  "fem": [""],
+  "gentilé": [""]
+},
+{
+  "code": "fi",
+  "index": 77,
+  "categorie": 1,
+  "nom": ["la finlande", "finlande", "la république de finlande", "république de finlande"],
+  "capitale": ["helsinki", "la helsinki"],
+  "hom": ["finlandais", "le finlandais"],
+  "fem": ["finlandaise", "la finlandaise"],
+  "gentilé": ["finlandais", "les finlandais"]
+},
+{
+  "code": "fj",
+  "index": 78,
+  "categorie": 5,
+  "nom": ["les fidji", "fidji", "les îles fidji"],
+  "capitale": ["suva", "la suva"],
+  "hom": ["fidjien", "le fidjien"],
+  "fem": ["fidjienne", "la fidjienne"],
+  "gentilé": ["fidjiens", "fidjiennes", "les fidjiens", "les fidjiennes"]
+},
+{
+  "code": "fk",
+  "index": 79,
+  "categorie": 5,
+  "nom": ["les îles malouines", "îles malouines", "les îles falkland", "îles falkland"],
+  "capitale": ["stanley", "la stanley"],
+  "hom": ["malouin", "le malouin"],
+  "fem": ["malouine", "la malouine"],
+  "gentilé": ["malouins", "malouines", "les malouins", "les malouines"]
+},
+{
+  "code": "fm",
+  "index": 80,
+  "categorie": 5,
+  "nom": ["les états fédérés de micronésie", "états fédérés de micronésie", "micronésie"],
+  "capitale": ["palikir", "la palikir"],
+  "hom": ["micronésien", "le micronésien"],
+  "fem": ["micronésienne", "la micronésienne"],
+  "gentilé": ["micronésiens", "micronésiennes", "les micronésiens", "les micronésiennes"]
+},
+{
+  "code": "fo",
+  "index": 81,
+  "categorie": 5,
+  "nom": ["les îles féroé", "îles féroé", "les îles faroe", "îles faroe"],
+  "capitale": ["tórshavn", "la tórshavn"],
+  "hom": ["féroïen", "le féroïen"],
+  "fem": ["féroïenne", "la féroïenne"],
+  "gentilé": ["féroïens", "féroïennes", "les féroïens", "les féroïennes"]
+},
+{
+  "code": "fr",
+  "index": 82,
+  "categorie": 1,
+  "nom": ["la france", "france", "la république française", "république française"],
+  "capitale": ["paris", "la paris"],
+  "hom": ["français", "le français"],
+  "fem": ["française", "la française"],
+  "gentilé": ["français", "les français"]
+},
+{
+  "code": "ga",
+  "index": 83,
+  "categorie": 4,
+  "nom": ["le gabon", "gabon", "la république gabonaise", "république gabonaise"],
+  "capitale": ["libreville", "la libreville"],
+  "hom": ["gabonais", "le gabonais"],
+  "fem": ["gabonaise", "la gabonaise"],
+  "gentilé": ["gabonais", "les gabonais"]
+},
+{
+  "code": "gb",
+  "index": 84,
+  "categorie": 1,
+  "nom": ["le royaume-uni", "royaume-uni", "le royaume-uni de grande-bretagne et d'irlande du nord", "royaume-uni de grande-bretagne et d'irlande du nord"],
+  "capitale": ["londres", "la londres"],
+  "hom": ["britannique", "le britannique"],
+  "fem": ["britannique", "la britannique"],
+  "gentilé": ["britanniques", "les britanniques"]
+},
+{
+  "code": "gb-eng",
+  "index": 85,
+  "categorie": 2,
+  "nom": ["l'angleterre", "angleterre", "l'angleterre (royaume-uni)"],
+  "capitale": ["londres", "la londres"],
+  "hom": ["anglais", "l'anglais"],
+  "fem": ["anglaise", "l'anglaise"],
+  "gentilé": ["anglais", "les anglais"]
+},
+{
+  "code": "gb-nir",
+  "index": 86,
+  "categorie": 2,
+  "nom": ["l'irlande du nord", "irlande du nord", "l'irlande du nord (royaume-uni)"],
+  "capitale": ["belfast", "la belfast"],
+  "hom": ["nord-irlandais", "le nord-irlandais"],
+  "fem": ["nord-irlandaise", "la nord-irlandaise"],
+  "gentilé": ["nord-irlandais", "les nord-irlandais"]
+},
+{
+  "code": "gb-sct",
+  "index": 87,
+  "categorie": 2,
+  "nom": ["l'écosse", "écosse", "l'écosse (royaume-uni)"],
+  "capitale": ["éditions", "la éditions"],
+  "hom": ["écossais", "l'écossais"],
+  "fem": ["écossaise", "l'écossaise"],
+  "gentilé": ["écossais", "les écossais"]
+},
+{
+  "code": "gb-wls",
+  "index": 88,
+  "categorie": 2,
+  "nom": ["le pays de galles", "pays de galles", "le pays de galles (royaume-uni)"],
+  "capitale": ["cardiff", "la cardiff"],
+  "hom": ["gallois", "le gallois"],
+  "fem": ["galloise", "la galloise"],
+  "gentilé": ["gallois", "les gallois"]
+},
+{
+  "code": "gd",
+  "index": 89,
+  "categorie": 4,
+  "nom": ["la grenade", "grenade", "le royaume de la grenade", "royaume de la grenade"],
+  "capitale": ["saint-georges", "le saint-georges"],
+  "hom": ["grénadien", "le grénadien"],
+  "fem": ["grénadienne", "la grénadienne"],
+  "gentilé": ["grénadiens", "les grénadiens"]
+},
+{
+  "code": "ge",
+  "index": 90,
+  "categorie": 3,
+  "nom": ["la géorgie", "géorgie", "la république de géorgie", "république de géorgie"],
+  "capitale": ["tbilissi", "la tbilissi"],
+  "hom": ["géorgien", "le géorgien"],
+  "fem": ["géorgienne", "la géorgienne"],
+  "gentilé": ["géorgiens", "les géorgiens"]
+},
+{
+  "code": "gf",
+  "index": 91,
+  "categorie": 5,
+  "nom": ["la guyane française", "guyane française"],
+  "capitale": ["cayenne", "la cayenne"],
+  "hom": ["guyanais", "le guyanais"],
+  "fem": ["guyanaise", "la guyanaise"],
+  "gentilé": ["guyanais", "les guyanais"]
+},
+{
+  "code": "gg",
+  "index": 92,
+  "categorie": 5,
+  "nom": ["guernesey", "l'île de guernesey", "guernsey"],
+  "capitale": ["saint-pierre-port", "le saint-pierre-port"],
+  "hom": ["guernesiais", "le guernesiais"],
+  "fem": ["guernesiaise", "la guernesiaise"],
+  "gentilé": ["guernesiais", "les guernesiais"]
+},
+{
+  "code": "gh",
+  "index": 93,
+  "categorie": 4,
+  "nom": ["le ghana", "ghana", "la république du ghana", "république du ghana"],
+  "capitale": ["accra", "la accra"],
+  "hom": ["ghanéen", "le ghanéen"],
+  "fem": ["ghanéenne", "la ghanéenne"],
+  "gentilé": ["ghanéens", "les ghanéens"]
+},
+{
+  "code": "gi",
+  "index": 94,
+  "categorie": 5,
+  "nom": ["gibraltar", "le rocher de gibraltar"],
+  "capitale": ["gibraltar", "le gibraltar"],
+  "hom": ["gibraltariote", "le gibraltariote"],
+  "fem": ["gibraltariote", "la gibraltariote"],
+  "gentilé": ["gibraltariotes", "les gibraltariotes"]
+},
+{
+  "code": "gl",
+  "index": 95,
+  "categorie": 5,
+  "nom": ["le groenland", "groenland", "le pays du groenland"],
+  "capitale": ["nuuk", "la nuuk"],
+  "hom": ["groenlandais", "le groenlandais"],
+  "fem": ["groenlandaise", "la groenlandaise"],
+  "gentilé": ["groenlandais", "les groenlandais"]
+},
+{
+  "code": "gm",
+  "index": 96,
+  "categorie": 4,
+  "nom": ["la gambie", "gambie", "la république de gambie", "république de gambie"],
+  "capitale": ["banjul", "la banjul"],
+  "hom": ["gambien", "le gambien"],
+  "fem": ["gambienne", "la gambienne"],
+  "gentilé": ["gambiens", "les gambiens"]
+},
+{
+  "code": "gn",
+  "index": 97,
+  "categorie": 4,
+  "nom": ["la guinée", "guinée", "la république de guinée", "république de guinée"],
+  "capitale": ["conakry", "la conakry"],
+  "hom": ["guinéen", "le guinéen"],
+  "fem": ["guinéenne", "la guinéenne"],
+  "gentilé": ["guinéens", "les guinéens"]
+},
+{
+  "code": "gp",
+  "index": 98,
+  "categorie": 5,
+  "nom": ["la guadeloupe", "guadeloupe"],
+  "capitale": ["basse-terre", "la basse-terre"],
+  "hom": ["guadeloupéen", "le guadeloupéen"],
+  "fem": ["guadeloupéenne", "la guadeloupéenne"],
+  "gentilé": ["guadeloupéens", "les guadeloupéens"]
+},
+{
+  "code": "gq",
+  "index": 99,
+  "categorie": 4,
+  "nom": ["la république de guinée équatoriale", "république de guinée équatoriale", "guinée équatoriale"],
+  "capitale": ["malabo", "la malabo"],
+  "hom": ["équato-guinéen", "l'équato-guinéen"],
+  "fem": ["équato-guinéenne", "l'équato-guinéenne"],
+  "gentilé": ["équato-guinéens", "les équato-guinéens"]
+},
+{
+  "code": "gr",
+  "index": 100,
+  "categorie": 3,
+  "nom": ["la grèce", "grèce", "la république hellénique", "république hellénique"],
+  "capitale": ["athènes", "l'athènes"],
+  "hom": ["grec", "le grec"],
+  "fem": ["grecque", "la grecque"],
+  "gentilé": ["grecs", "les grecs"]
+},
+{
+  "code": "gs",
+  "index": 101,
+  "categorie": 5,
+  "nom": ["la géorgie du sud-et-les îles sandwich du sud", "géorgie du sud-et-les îles sandwich du sud", "gssi"],
+  "capitale": ["king edward point", "le king edward point"],
+  "hom": ["géorgien du sud", "le géorgien du sud"],
+  "fem": ["géorgienne du sud", "la géorgienne du sud"],
+  "gentilé": ["géorgiens du sud", "les géorgiens du sud"]
+},
+{
+  "code": "gt",
+  "index": 102,
+  "categorie": 4,
+  "nom": ["le guatemala", "guatemala", "la république du guatemala", "république du guatemala"],
+  "capitale": ["ville de guatemala", "la ville de guatemala"],
+  "hom": ["guatémaltèque", "le guatémaltèque"],
+  "fem": ["guatémaltèque", "la guatémaltèque"],
+  "gentilé": ["guatémaltèques", "les guatémaltèques"]
+},
+{
+  "code": "gu",
+  "index": 103,
+  "categorie": 5,
+  "nom": ["guam", "l'île de guam"],
+  "capitale": ["hagåtña", "la hagåtña"],
+  "hom": ["guamien", "le guamien"],
+  "fem": ["guamienne", "la guamienne"],
+  "gentilé": ["guamiens", "les guamiens"]
+},
+{
+  "code": "gw",
+  "index": 104,
+  "categorie": 4,
+  "nom": ["la guinée-bissau", "guinée-bissau", "la république de guinée-bissau", "république de guinée-bissau"],
+  "capitale": ["bissau", "la bissau"],
+  "hom": ["bissau-guinéen", "le bissau-guinéen"],
+  "fem": ["bissau-guinéenne", "la bissau-guinéenne"],
+  "gentilé": ["bissau-guinéens", "les bissau-guinéens"]
+},
+{
+  "code": "gy",
+  "index": 105,
+  "categorie": 4,
+  "nom": ["la guyane", "guyane", "la république coopérative de guyane", "république coopérative de guyane"],
+  "capitale": ["georgetown", "le georgetown"],
+  "hom": ["guyanais", "le guyanais"],
+  "fem": ["guyanaise", "la guyanaise"],
+  "gentilé": ["guyanais", "les guyanais", "les guyanaises"]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

@@ -2,19 +2,35 @@
   background: #f1f3f5;
   border-radius: 16px;
   padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
-.historique h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+.historique-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 2px solid #ced4da;
+  padding-bottom: 0.5rem;
+}
+
+.historique h1 {
+  font-size: 1.5rem;
   color: #343a40;
+  margin: 0;
 }
 
-.historique p {
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  color: #6c757d;
+.historique .points {
+  font-size: 1rem;
+  background: #ffffff;
+  color: #007bff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 .historique ul {
@@ -36,10 +52,16 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.historique .reponse {
+  flex: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
 .correct {
-  color: green;
+  color: #2e7d32; /* verde fuerte */
 }
 
 .incorrect {
-  color: red;
+  color: #c62828; /* rojo fuerte */
 }

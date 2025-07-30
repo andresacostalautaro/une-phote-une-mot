@@ -4,12 +4,12 @@ import { App } from './app';
 import { Nav } from './nav/nav';
 import { RouterModule } from '@angular/router';
 import { NavButton } from './nav/nav-button/nav-button';
-import { NavLogo } from './nav/nav-logo/nav-logo';
+import { NavBar} from './nav/bar/bar';
 import { LesNations } from './les-nations/les-nations';
 import { LesDrapeaux } from './les-nations/les-drapeaux/les-drapeaux';
 import { FormsModule } from '@angular/forms';
 import { LHistorique } from './les-nations/l-historique/l-historique';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,7 +19,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     App,
     Nav,
     NavButton,
-    NavLogo,
+    NavBar,
     LesNations,
     LesDrapeaux,
     LHistorique

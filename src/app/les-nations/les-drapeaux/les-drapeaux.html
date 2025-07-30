@@ -1,5 +1,19 @@
 <div class="les-drapeaux">
   <img [src]="flagUrl" alt="Drapeau" class="flag-img" />
-  <input [(ngModel)]="userAnswer" placeholder="Nom du pays" />
-  <button (click)="valider()">Valider</button>
+
+  <div>
+    <input [(ngModel)]="userAnswer1" placeholder="Nom du pays" />
+    <input [(ngModel)]="userAnswer2" placeholder="Capitale" />
+  </div>
+
+  <input [(ngModel)]="userAnswer3" placeholder="Gentilé" />
+  <input [(ngModel)]="userAnswer4" placeholder="Homme" />
+  <input [(ngModel)]="userAnswer5" placeholder="Femme" />
+
+  <div class="button-group">
+    <button (click)="valider()" class="respond-btn" style="background-color: green;">Valider</button>
+    <button (click)="sauter()" class="respond-btn" style="background-color: red;">Sauter</button>
+  </div>
+
+  <p *ngIf="resultMessage">{{ resultMessage }}</p>
 </div>

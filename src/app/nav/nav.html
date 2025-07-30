@@ -1,8 +1,10 @@
 <nav class="navbar">
-  <app-nav-logo></app-nav-logo>
-  <ul class="nav-links">
-    <li><a routerLink="/"><app-nav-button>Inicio</app-nav-button></a></li>
-    <li><a routerLink="/les-nations"><app-nav-button>Les Nations</app-nav-button></a></li>
-
-  </ul>
+  <div style="display: flex;">
+    <a routerLink="/"><img src="assets/logo.svg" alt="Logo" class="logo"></a>
+    <div>
+      <h1>UnePhoto</h1>
+      <h1>UneMot</h1>
+    </div>
+  </div>
 </nav>
+<app-bar></app-bar>
